@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <d>
+        <header>
+            <a href="main-page.html">Вернуться на главную</a>
+            <img src="img/icon.ico" alt="logo">
+            <h1>Компас</h1>
+            <h4>Экскурсии по Москве</h4>
+        </header>
+        <div class="alert">
+            <div class="alert alert-success" role="alert">
+                A simple success alert—check it out!
+            </div>
+        </div>
+        <div class="info">
+            <img src="img/photo.svg" alt="photo">
+            <div class="block">
+                <h3>Экскурсии по Москве для прекрасных туристов</h3>
+                <div class="text">
+                    <p>
+                        Приглашаем индивидуальных туристов на экскурсии по Киеву! Вы путешествуете одни, с семьей,
+                        детьми, с близкими людьми, небольшой компанией? Добро пожаловать!
+                    </p>
+                    <p>
+                        Для первой встречи с нашим городом рекомендуем выбрать обзорную экскурсию по Киеву, которая
+                        поможет
+                        получить общее и
+                        наиболее полное представление о Москве и его достопримечательностях.
+                    </p>
+                    <p>
+                        Для более детального знакомства с Москве у нас есть множество тематических и других
+                        экскурсий, а
+                        также экскурсии по
+                        окрестностям Москвы, экскурсии по другим городам Украины.
+                    </p>
+                    <p>
+                        Время и место, а также продолжительность экскурсии выбираете Вы. Пожалуйста, отправьте нам
+                        Ваш
+                        запрос, и мы с радостью
+                        организуем для Вас и Ваших спутников те экскурсии, которые Вас заинтересовали.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container text-center">
+            <h1>Дополнительные опции</h1>
+            <div class="row">
+                <div class="col-2"><img src="img/icon.ico" alt="icon">Текст</div>
+                <div class="col-2"><img src="img/icon.ico" alt="icon">Текст</div>
+                <div class="col-2"><img src="img/icon.ico" alt="icon">Текст</div>
+                <div class="col-2"><img src="img/icon.ico" alt="icon">Текст</div>
+            </div>
+            <div class="row">
+                <div class="col-2"><img src="img/icon.ico" alt="icon">Текст</div>
+                <div class="col-2"><img src="img/icon.ico" alt="icon">Текст</div>
+                <div class="col-2"><img src="img/icon.ico" alt="icon">Текст</div>
+                <div class="col-2"><img src="img/icon.ico" alt="icon">Текст</div>
+            </div>
+        </div>
+        <div class="route">
+            <h4>Cписок пешиходных маршрутов</h4>
+            <div class="search-form">
+                <div class="label">
+                    <input type="text" class="search-field" placeholder="Поиск по названию">
+                    <div class="list-auto-completion hidden" id="list">
+                        <select name="choice" id="choice">
+                            <option value="1">Основной обьект</option>
+                            <option value="2"></option>
+                            <option value="3"></option>
+                            <option value="4"></option>
+                            <option value="5"></option>
+                        </select>
+                    </div>
+                </div>
+                <button class="search-btn">Найти</button>
+            </div>
+
+            <table border="1">
+                <tbody>
+                    <tr rowspan="4">
+                        <th>Название маршрута</th>
+                        <th class="description">Описание</th>
+                        <th>Стоимость</th>
+                        <th>Функции</th>
+                    </tr>
+                </tbody>
+            </table>
+            <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+
+
+
+        <div class="block-gits">
+            <h4>Доступные гиды по маршруту <span class="name-route"></span></h4>
+            <div class="gits">
+                <select name="language" id="language">
+                    <option value="1">Русский</option>
+                    <option value="2">Английский</option>
+                    <option value="3">Француский</option>
+                    <option value="4">Беларусский</option>
+                    <option value="5">Казахский</option>
+                </select>
+                <h5>Опыт работы</h5>
+                <div class="git-age">
+                    <div class="label">
+                        <input type="text" class="age-from" placeholder="От">
+                        <div class="list-age-from-git" id="list-form-git">
+                        </div>
+                        <input type="text" class="age-to" placeholder="До">
+                        <div class="list-age-to-git" id="list-to-git">
+                        </div>
+                    </div>
+                    <button class="search-btn">Найти</button>
+                </div>
+
+
+
+            </div>
+            <table border="1">
+                <tbody>
+                    <tr rowspan="4">
+                        <th>Название маршрута</th>
+                        <th class="description">Описание</th>
+                        <th>Стоимость</th>
+                        <th>Функции</th>
+                    </tr>
+                </tbody>
+            </table>
+
+
+
+
+            <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        </section>
+</body>
+
+</html>

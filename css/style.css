@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Общая структура страниц */
+/* Шапка сайта */
+
+header {
+    width: 100%;
+    padding: 20px;
+
+}
+
+header img {
+    float: left;
+    width: 200px;
+    height: 200px;
+
+}
+
+header h1 {
+    margin-top: 2em;
+    padding-left: 6em;
+}
+
+header h4 {
+    padding-left: 8em;
+}
+
+header a {
+    float: right;
+    margin-right: 2em;
+}
+
+/* Окно уведомления выполнения  */
+
+body .alert {
+    padding: 1em 1em;
+    width: 98%;
+    display: none;
+
+}
+
+
+/* Главная страница */
+/* Данные о компании */
+
+.info {
+    padding: 20px;
+    display: inline-flex;
+    height: 100%;
+
+}
+
+.info img {
+    width: 400px;
+    height: 400px;
+}
+
+.info .block {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.info .text {
+    border: 1px solid black;
+    margin: 0 20px 0 0;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+.info h3 {
+    text-align: center;
+    border: 1px solid black;
+    width: 95.5%;
+}
+
+/* Опции */
+
+.container {
+    height: 100%;
+    width: 100%;
+}
+
+.row {
+    margin-bottom: 4em;
+}
+
+.row img {
+    width: 80px;
+    height: 80px;
+}
+
+.col-2 {
+    width: 0px;
+    height: 20px;
+    margin: 20px;
+}
+
+/* Список маршрутов */
+
+.route h4 {
+    margin-left: 2em;
+    padding-top: 4em;
+}
+
+.search-form {
+    margin: 2em 0 2em 0;
+}
+
+.label {
+    display: inline-flex;
+    margin: 0 2em;
+}
+
+#choice {
+    margin: 0 8em;
+}
+
+.search-form input {
+    padding-left: 20px;
+
+}
+
+.search-form .search-field {
+    width: 400px;
+    height: 30px;
+}
+
+.search-form button {
+    margin: 20px 0 0 30px;
+}
+
+table {
+    padding: 2em;
+}
+
+.route th {
+    border: 1px solid black;
+    padding: 20px 46px;
+    text-align: center;
+}
+
+.description {
+    width: 300px;
+}
+
+/* Тело Пагинацион */
+
+.pagination {
+    text-align: center;
+}
+
+/* Данные о гиду */
+
+.search-btn.block-gits:active {
+    display: block;
+}
+
+.block-gits {
+    display: none;
+}
+
+.gits {
+    display: flex;
+}
+
+h4,
+#language {
+    margin: 0 1em 1em 1em;
+}
+
+.age-from,
+.age-to {
+    width: 100px;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+
+
+/* --------------------------------- */
+/* Личный кабинет */
+/* Основное тело */
+section {
+    border: 1px solid black;
+    margin: 2em;
+    height: 100%;
+}
+
+/* Окно заявок  */
+
+.applications h4 {
+    margin-left: 2em;
+    padding-top: 4em;
+}
+
+table {
+    padding: 2em;
+}
+
+table th {
+    margin: 2em;
+    border: 1px solid black;
+    padding: 20px 46px;
+    text-align: center;
+}
+
+.pagination {
+    justify-content: center;
+    margin-top: 2em;
+}
