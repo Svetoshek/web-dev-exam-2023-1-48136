@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+
 /* Общая структура страниц */
 /* Шапка сайта */
 
@@ -41,6 +42,15 @@ body .alert {
 
 }
 
+section,
+img {
+    background-color: #808080;
+    ;
+}
+
+a {
+    color: yellow;
+}
 
 /* Главная страница */
 /* Данные о компании */
