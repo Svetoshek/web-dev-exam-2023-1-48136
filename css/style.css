@@ -94,8 +94,11 @@ a {
 }
 
 .row {
-    margin-bottom: 4em;
+    margin-bottom: 8em;
     justify-content: center;
+    font-size: 20px;
+    text-align: center;
+    color: blue;
 }
 
 .row img {
