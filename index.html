@@ -28,8 +28,8 @@
         <div class="info">
             <img src="img/photo.svg" alt="photo">
             <div class="block">
-                <h3>Экскурсии по Москве для прекрасных туристов</h3>
                 <div class="text">
+                    <h3>Экскурсии по Москве для прекрасных туристов</h3>
                     <p>
                         Приглашаем индивидуальных туристов на экскурсии по Киеву! Вы путешествуете одни, с семьей,
                         детьми, с близкими людьми, небольшой компанией? Добро пожаловать!
@@ -93,27 +93,31 @@
                     <tr rowspan="4">
                         <th>Название маршрута</th>
                         <th class="description">Описание</th>
-                        <th>Стоимость</th>
-                        <th>Функции</th>
+                        <th>Основные объекты</th>
+                        <th>Подтвердить</th>
                     </tr>
                 </tbody>
             </table>
-            <nav aria-label="Page navigation example">
-                <ul class="pagination">
-                    <li class="page-item">
-                        <a class="page-link" href="#" aria-label="Previous">
-                            <span aria-hidden="true">&laquo;</span>
-                        </a>
-                    </li>
-                    <li class="page-item"><a class="page-link" href="#">1</a></li>
-                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                    <li class="page-item">
-                        <a class="page-link" href="#" aria-label="Next">
-                            <span aria-hidden="true">&raquo;</span>
-                        </a>
-                    </li>
-                </ul>
+            <div class="pagination-info">
+                <div class="with-selector">
+                    Показывать по
+                    <select class="per-page" name="per-page" id="count-page">
+                        <option value="5">5</option>
+                        <option value="10">10</option>
+                        <option value="25">25</option>
+                        <option value="50">50</option>
+                        <option value="100">100</option>
+
+                    </select>
+                    записей на странице.
+                </div>
+                <div class="info-about-all-pages">
+                    Показаны записи с <span class="from-page"></span> по <span class="to-page"></span>
+                    из <span class="all-page"></span>.
+                </div>
+            </div>
+            <div class="records-list"></div>
+            <div class="pagination"></div>
             </nav>
         </div>
 
@@ -178,8 +182,8 @@
                 </ul>
             </nav>
         </div>
-
         </section>
+        <script src="js/main.js"></script>
 </body>
 
 </html>
