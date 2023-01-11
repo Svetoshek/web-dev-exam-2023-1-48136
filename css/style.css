@@ -75,7 +75,6 @@ body .alert {
 .info h3 {
     text-align: center;
     border: 1px solid black;
-    width: 95.5%;
 }
 
 /* Опции */
@@ -87,6 +86,7 @@ body .alert {
 
 .row {
     margin-bottom: 4em;
+    justify-content: center;
 }
 
 .row img {
@@ -102,9 +102,11 @@ body .alert {
 
 /* Список маршрутов */
 
-.route h4 {
+.route {
     margin-left: 2em;
     padding-top: 4em;
+    justify-content: center;
+    text-align: center;
 }
 
 .search-form {
@@ -136,6 +138,7 @@ body .alert {
 
 table {
     padding: 2em;
+    width: 97%;
 }
 
 .route th {
