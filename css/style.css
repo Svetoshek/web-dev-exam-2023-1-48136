@@ -153,14 +153,16 @@ table {
     width: 97%;
 }
 
-.route th {
+.route th,
+.route td {
     border: 1px solid black;
     padding: 20px 46px;
     text-align: center;
+    color: white;
 }
 
 .description {
-    width: 300px;
+    width: 500px;
 }
 
 /* Тело Пагинацион */
